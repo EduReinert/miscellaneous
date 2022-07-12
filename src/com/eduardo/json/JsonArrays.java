@@ -65,7 +65,7 @@ public class JsonArrays {
 
 		System.out.println(funcArray.toString(2));
 
-		try (FileWriter file = new FileWriter("src/output/funcionarios.json")) {
+		try (FileWriter file = new FileWriter("funcionarios.json")) {
 			funcArray.write(file, 2, 0);
 			logger.info("adicionado ao .json com sucesso");
 		} catch (IOException e) {

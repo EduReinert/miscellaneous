@@ -50,7 +50,7 @@ public class ClienteMain {
 				System.out.println(clientesList);
 				break;
 			case 3:
-				try(FileWriter file = new FileWriter("src/output/clientes.json")) {
+				try(FileWriter file = new FileWriter("clientes.json")) {
 					clientesList.writeJSONString(file);
 				} catch (IOException e) {
 					e.printStackTrace();

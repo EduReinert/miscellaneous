@@ -1,0 +1,18 @@
+[
+  {
+    "doenca": "Gripe",
+    "entrada_hospital": "Tue Jul 12 14:04:17 BRT 2022",
+    "numero": "47-9326-2196",
+    "nome": "Eduardo"
+  },
+  {
+    "doenca": "Enxaqueca",
+    "numero": "47-91235-6341",
+    "nome": "Julia"
+  },
+  {
+    "doenca": "Resfriado",
+    "numero": "47-94335-1341",
+    "nome": "Fernando"
+  }
+]
